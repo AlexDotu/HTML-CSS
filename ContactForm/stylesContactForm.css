@@ -1,0 +1,33 @@
+p{
+    color: blue;
+}
+
+.zagolovok{
+    background-color: blueviolet;
+}
+
+#header{
+    font-size: 70px;
+}
+
+h2.intro{
+    color: aqua;
+}
+
+a{
+color: chartreuse;
+}
+
+a:hover{
+color: brown;
+}
+
+p{
+    color: blueviolet;
+    border-bottom: 3px solid green;
+}
+
+
+li{
+    background-color: grey;
+}
