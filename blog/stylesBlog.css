@@ -26,13 +26,18 @@ color: brown;
 }
 
 p{
-    color:#333;
+    color:#333;  
     
 }
 
+#text{
+    background-color:aqua;
+    width: 600px;
+}
 
 li{
-    background-color: grey;
+    background-color:aqua;
+    width: 70px;
 }
 
 
@@ -40,7 +45,7 @@ li{
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     width: 100%;
-    height: auto;
+    height: 0 auto;
 opacity: 0.2;
 }
 
