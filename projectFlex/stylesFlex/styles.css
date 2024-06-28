@@ -1,0 +1,106 @@
+.flex-container {
+    display: flex;
+    */ flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid rgb(4, 82, 83);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex-item {
+    background-color: rgb(4, 82, 83);
+    color: aliceblue;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 5%;
+    height: 40px;
+    width: 250px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex-it {
+    background-color: rgb(4, 82, 83);
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 10%;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 20vh; */
+    background-color: rgb(4, 82, 83);
+    color: aliceblue;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 5%;
+}
+
+.flex-it1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-around;
+    left: 10px;
+    top: 40px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    width: 170px;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 10%;
+    background-color: rgb(45, 133, 135);
+    color: aliceblue;
+}
+
+.flex-it2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 40px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    width: 170px;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 10%;
+    background-color: rgb(45, 133, 135);
+    color: aliceblue;
+}
+
+.flex-it3 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    width: 170px;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 10%;
+    background-color: rgb(45, 133, 135);
+    color: aliceblue;
+}
+
+.flex-item2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    align-items: center;
+    align-content: center;
+    padding: 2px;
+    margin-top: 0px;
+    height: 15vh;
+    width: 600px;
+    border: 2px solid rgb(4, 82, 83);
+    border-radius: 2%;
+    background-color: rgb(4, 82, 83);
+    color: aliceblue;
+}
